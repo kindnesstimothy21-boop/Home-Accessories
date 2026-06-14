@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Home Accessories</title>
+  <meta name="description" content="Browse our gallery of styled interiors, decorative accessories and product showcases from Home Accessories — Nigerian home décor inspiration.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Masonry sizing — different items span different row counts
+       to create the staggered "Pinterest" look */
+    .masonry-item.tall{ grid-row: span 28; }
+    .masonry-item.med{ grid-row: span 20; }
+    .masonry-item.short{ grid-row: span 14; }
+    @media (max-width:1024px){ .masonry{ grid-template-columns: repeat(2,1fr); } }
+    @media (max-width:600px){ .masonry{ grid-template-columns: 1fr; } .masonry-item.tall, .masonry-item.med, .masonry-item.short{ grid-row: span 1; aspect-ratio: 4/5; } }
+  </style>
+</head>
+<body>
+
+  <div class="loader">
+    <div class="loader-mark">HOME <span>ACCESSORIES</span><div class="loader-bar"></div></div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="logo">Home <span>Accessories</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-outline">Contact Us</a>
+        <a href="https://wa.me/2348167741107" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Order</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Inspiration</div>
+      <h1>Our Gallery</h1>
+      <div class="gold-divider"><span></span></div>
+      <p style="max-width:560px; margin:0 auto; color:#D8CDB8;">
+        A look at our products styled in real spaces — for ideas on how to
+        bring similar elegance into your own home.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== MASONRY GALLERY ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="masonry reveal">
+
+        <div class="masonry-item tall">
+          <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=600&auto=format&fit=crop" alt="Styled living room with decorative accessories">
+          <div class="cap"><span>Living Room Styling</span></div>
+        </div>
+
+        <div class="masonry-item med">
+          <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=600&auto=format&fit=crop" alt="Decorative vase and wall art arrangement">
+          <div class="cap"><span>Vase &amp; Wall Art Pairing</span></div>
+        </div>
+
+        <div class="masonry-item short">
+          <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=600&auto=format&fit=crop" alt="Velvet cushions on a sofa">
+          <div class="cap"><span>Cushion Styling</span></div>
+        </div>
+
+        <div class="masonry-item med">
+          <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=600&auto=format&fit=crop" alt="Elegant living room corner with gold accents">
+          <div class="cap"><span>Gold Accent Corner</span></div>
+        </div>
+
+        <div class="masonry-item tall">
+          <img src="https://images.unsplash.com/photo-1616137148949-9d3a0d4d72c4?q=80&w=600&auto=format&fit=crop" alt="Cozy reading nook with decorative accessories">
+          <div class="cap"><span>Cozy Reading Nook</span></div>
+        </div>
+
+        <div class="masonry-item short">
+          <img src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?q=80&w=600&auto=format&fit=crop" alt="Artificial flower arrangement on a console table">
+          <div class="cap"><span>Console Table Florals</span></div>
+        </div>
+
+        <div class="masonry-item med">
+          <img src="https://images.unsplash.com/photo-1578500351865-fa9998d46d70?q=80&w=600&auto=format&fit=crop" alt="Collection of decorative vases on a shelf">
+          <div class="cap"><span>Vase Collection Display</span></div>
+        </div>
+
+        <div class="masonry-item short">
+          <img src="https://images.unsplash.com/photo-1602810318660-d2c46b750f88?q=80&w=600&auto=format&fit=crop" alt="Brass candle holders styled on a dining table">
+          <div class="cap"><span>Dining Table Accents</span></div>
+        </div>
+
+        <div class="masonry-item tall">
+          <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=600&auto=format&fit=crop" alt="Bright bedroom styled with decorative accessories">
+          <div class="cap"><span>Bedroom Refresh</span></div>
+        </div>
+
+        <div class="masonry-item med">
+          <img src="https://images.unsplash.com/photo-1581539250439-c96689b516dd?q=80&w=600&auto=format&fit=crop" alt="Woven storage baskets in a tidy room corner">
+          <div class="cap"><span>Organized Living Space</span></div>
+        </div>
+
+        <div class="masonry-item short">
+          <img src="https://images.unsplash.com/photo-1616627561839-074385245ff6?q=80&w=600&auto=format&fit=crop" alt="Marble effect tray styled on a coffee table">
+          <div class="cap"><span>Coffee Table Styling</span></div>
+        </div>
+
+        <div class="masonry-item med">
+          <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=600&auto=format&fit=crop" alt="Modern dining area with elegant decor">
+          <div class="cap"><span>Modern Dining Area</span></div>
+        </div>
+
+      </div>
+
+      <div style="text-align:center; margin-top:3rem;" class="reveal">
+        <p style="color:var(--color-text-soft); margin-bottom:1.2rem;">Loved a look? Most pieces shown can be sourced or matched closely.</p>
+        <a href="https://wa.me/2348167741107" target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Ask About These Pieces</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">Home <span>Accessories</span></div>
+          <p>Curated décor and accessories to help every Nigerian home feel warmer, brighter and more beautiful.</p>
+          <div class="social-row">
+            <a href="https://web.facebook.com/treasuresignature28" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/home_accessories_ng" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/2348167741107" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="products.html">Wall Décor</a></li>
+            <li><a href="products.html">Vases</a></li>
+            <li><a href="products.html">Artificial Flowers</a></li>
+            <li><a href="products.html">Cushions</a></li>
+            <li><a href="products.html">Home Organizers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fa-solid fa-phone" style="color:var(--color-gold); margin-right:0.5rem;"></i> +234 816 774 1107</li>
+            <li><i class="fa-solid fa-envelope" style="color:var(--color-gold); margin-right:0.5rem;"></i> abionafunmi28@gmail.com</li>
+            <li><i class="fa-solid fa-location-dot" style="color:var(--color-gold); margin-right:0.5rem;"></i> Lagos, Nigeria</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; <span id="year"></span> Home Accessories. All rights reserved. Founded by Treasure Iferobia.</div>
+    </div>
+  </footer>
+
+  <div class="social-float-stack">
+    <a href="https://www.instagram.com/home_accessories_ng" target="_blank" rel="noopener" class="float-instagram" aria-label="Visit our Instagram"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://web.facebook.com/treasuresignature28" target="_blank" rel="noopener" class="float-facebook" aria-label="Visit our Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+  </div>
+  <a href="https://wa.me/2348167741107" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <button class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>
